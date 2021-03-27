@@ -42,6 +42,6 @@ export class CarApiService {
   }
 
   delCarData(carId:string) : void {
-
+    this.carsDataCollection.doc(carId).delete();
   }
 }
