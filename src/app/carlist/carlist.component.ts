@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 import {CarApiService} from '../services/car-api.service';
 import {ICar, Car} from '../interfaces/car';
 import {CarComponent} from '../car/car.component';
